@@ -1,0 +1,87 @@
+.body_lg { 
+  background-image: url("../images/hus.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+}
+.hero-text {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+
+}
+img{
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: auto;
+}
+#container{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 360px;
+  height: 260px;
+  border-radius: 5px;
+  background: rgba(3,3,3,0.65);
+  box-shadow: 1px 1px 50px #000;
+}
+
+h1{
+  position: relative;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 30px;
+  color: #ddd;
+  text-shadow: 3px 3px 10px #000;
+}
+
+button,
+input{
+  text-decoration: none;
+  position: relative;
+  width: 80%;
+  display: block;
+  margin: 9px auto;
+  font-size: 17px;
+  color: #fff;
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  background: rgba(3,3,3,0.7);
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+input:focus{
+  outline: none;
+  box-shadow: 3px 3px 10px #333;
+  background: rgba(3,3,3,.18);
+}
+
+::-webkit-input-placeholder {
+   color: #ddd;  }
+:-moz-placeholder { /* Firefox 18- */
+   color: red;  }
+::-moz-placeholder {  /* Firefox 19+ */
+   color: red;  }
+:-ms-input-placeholder {  
+   color: #333;  }
+
+.btn-login{
+  text-align: center;
+  padding: 4px 8px;
+  background: rgba(107,255,3,0.9);
+  opacity: 0.7;
+}
+

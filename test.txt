@@ -1,0 +1,5 @@
+
+SELECT c.macb, c.hoten, c.ngaysinh, c.gioiTinh, c.email, c.emailkhac, c.didong, c.quequan, c.noiohientai, c.dantoc, c.tongiao, c.socmnd, c.ngaycapcmnd, c.noicapcmnd, c.ngoaingu, c.khenthuong, c.kiluat, c.ngaytuyendung, c.ngaythoiviec, c.hocvi, c.hocham FROM canbo c WHERE 1
+
+//tsi, thsi, pgs, gs
+SELECT tr.tentruong, (SELECT COUNT(c.hocvi) FROM canbo c, bomon b, khoa k, truong t WHERE c.hocvi = 'Th?c si' AND c.mabomon = b.id AND b.makhoa = k.makhoa AND b.matruong = t.matruong AND t.matruong = tr.matruong) as slthsi, (SELECT COUNT(c.hocvi) FROM canbo c, bomon b, khoa k, truong t WHERE c.hocvi = 'Ti?n si' AND c.mabomon = b.id AND b.makhoa = k.makhoa AND b.matruong = t.matruong AND t.matruong = tr.matruong) as sltsi, (SELECT COUNT(c.hocvi) FROM canbo c, bomon b, khoa k, truong t WHERE c.hocham = 'Phó Giáo su' AND c.mabomon = b.id AND b.makhoa = k.makhoa AND b.matruong = t.matruong AND t.matruong = tr.matruong) as slpgs, (SELECT COUNT(c.hocvi) FROM canbo c, bomon b, khoa k, truong t WHERE c.hocham = 'Giáo su' AND c.mabomon = b.id AND b.makhoa = k.makhoa AND b.matruong = t.matruong AND t.matruong = tr.matruong) as slgs FROM truong tr

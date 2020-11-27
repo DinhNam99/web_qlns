@@ -1,0 +1,64 @@
+ul{margin:0px;}
+a{text-decoration:none;color:#FFFFFF;font-size: 20px;}
+
+
+.fab fa-facebook{
+	color:#d82460;
+	font-size:30px;
+	margin-top:12px;
+}
+
+.footer{
+	background-color:#007dc5;
+	height:200px;
+	float: left;
+	width: 100%;
+}
+.map{
+	float: left;
+	width: 30%;
+	margin-left: 10px;
+}
+.main-footer{
+	float: right;
+	width:68%;
+	height:100%;
+}
+.main-footer ul {
+	float:right;
+	width:100%;
+}
+.main-footer li{
+	float:left;
+	width:23%;
+	margin-left:5%;
+	display:inline-block;
+	
+}
+.main-footer li.first{
+	margin-left:0px;
+	width:40%;
+}
+.main-footer li p{
+	color:#ffffff;
+	font-size:18px;
+	font-weight: bold;
+}
+.content-footer{
+	padding:0 auto;
+	color:white;
+}
+.content-footer li{
+	width:100%;
+	margin-top: 8px;
+}
+
+.content-footer li a{
+	color:#ffffff;
+	font-size:17px;
+	text-decoration:none;;
+}
+
+.a1{
+	text-align:center;
+}
